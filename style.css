@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Times New Roman;
+  font-family: "Times New Roman", Times, serif;
   background: #ffffff;
   color: #222222;
   line-height: 1.6;
@@ -21,6 +21,16 @@ header h1 {
 header p {
   margin: 8px 0 0;
   font-size: 18px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #dbeafe;
+  text-decoration: underline;
 }
 
 nav {
@@ -50,6 +60,26 @@ h2 {
   color: #0f172a;
   border-bottom: 2px solid #e5e7eb;
   padding-bottom: 6px;
+}
+
+.profile-box {
+  text-align: center;
+  display: block;
+}
+
+.profile-box img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.profile-box div {
+  max-width: 800px;
+  margin: auto;
 }
 
 .card {
